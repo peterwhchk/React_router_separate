@@ -1,5 +1,5 @@
-import React from 'react';
 import Home from './pages/home'
+import About from './pages/about'
 
 const routes = [
     {
@@ -11,13 +11,5 @@ const routes = [
         component: About
     }
 ];
-
-function About() {
-    return (
-        <div>
-            <h2>About</h2>
-        </div>
-    );
-}
 
 export default routes;
